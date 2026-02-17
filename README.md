@@ -1,7 +1,4 @@
-# Markov_Trading_Bot
-
-
- **Markov Chain Systematic Trading Bot**
+# Markov Chain Systematic Trading Bot
 
 > **Systematic trading with risk-aware architecture**
 >
