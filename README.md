@@ -1,7 +1,7 @@
-# Vix_100_Trading_Bot
+# Markov_Trading_Bot
 
 
- **Markov Chain Systematic Trading**
+ **Markov Chain Systematic Trading Bot**
 
 > **Systematic trading with risk-aware architecture**
 >
@@ -53,7 +53,7 @@ Edit `MT5_Trading_Bot.py` with your credentials:
 ACCOUNT_ID = 1234567
 PASSWORD = "your_password"
 SERVER = "Deriv-Demo"
-SYMBOL = "Volatility 100 Index"
+SYMBOL = "Volatility Index"
 
 # Trading parameters
 RISK_PERCENT = 2.0           # Risk 2% per trade
@@ -337,7 +337,7 @@ python backtrader_strategy.py
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3-pip screen git
 
-git clone https://github.com/yourusername/markov-trading-bot.git
+git clone https://github.com/JoeAkpan28/Markov_Trading_Bot.git
 cd markov-trading-bot
 pip install -r requirements.txt
 
@@ -387,7 +387,7 @@ RISK_PERCENT = 2.0  # Currently 2% per trade
 ### Symbol/Timeframe Adaptation
 
 ```python
-SYMBOL = "Volatility 100 Index"  # Change to any MT5-supported symbol
+SYMBOL = "Volatility Index"  # Change to any MT5-supported symbol
 TIMEFRAME = mt5.TIMEFRAME_H1     # Change to H4, D1, etc.
 ```
 
@@ -448,10 +448,10 @@ Built with attention to risk management and interpretability.
 
 **Want to cite this?**
 ```bibtex
-@software{vix_100_trading_bot_2026,
+@software{Markov_Trading_Bot_2026,
   title = {Markov Chain Systematic Trading Bot},
   author = {Joe Akpan},
   year = {2026},
-  url = {https://github.com/JoeAkpan28/vix_100_trading_bot}
+  url = {https://github.com/JoeAkpan28/Markov_Trading_Bot}
 }
 ```
